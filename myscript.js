@@ -4,7 +4,7 @@ function dateNow(){
     document.querySelector(".minute").innerText = zeroCheck(d.getMinutes())+" :";
     document.querySelector(".second").innerText = zeroCheck(d.getSeconds());
     let day=d.getDay();
-    day_list=["Sonday","monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+    day_list=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     document.querySelector(".day").innerText = day_list[day];
 }
 function zeroCheck(data){
