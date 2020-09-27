@@ -11,13 +11,13 @@ body{
     position: relative;
 }
 img{
-    width: 500px;
+    width: 450px;
     height: 200px;
 }
 .clock{
     position: absolute;
     top:35px;
-    left:50px;
+    left:35px;
     text-align: center;
     font-size: 60px;
     border-bottom: 1px solid grey;
