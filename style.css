@@ -1,0 +1,31 @@
+
+body{
+    background-image: linear-gradient(grey,white);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-div{
+    position: relative;
+}
+img{
+    width: 500px;
+    height: 200px;
+}
+.clock{
+    position: absolute;
+    top:35px;
+    left:30px;
+    text-align: center;
+    font-size: 70px;
+    border-bottom: 1px solid grey;
+}
+.day{
+    position: absolute;
+    top:120px;
+    left: 40%;
+    font-size: 30px;
+}
